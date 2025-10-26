@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#8E664D">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="413dp"
+        android:layout_height="541dp"
+        android:background="@color/white"
+        android:backgroundTint="#8E664D"
+        android:orientation="vertical"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="-3dp">
+
+        <TextView
+            android:id="@+id/Nome"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nome:"
+            android:textColor="@color/marrom1"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/Reino"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Reino:"
+            android:textColor="@color/marrom1"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/Filo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Filo:"
+            android:textColor="@color/marrom1"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/Ordem"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ordem:"
+            android:textColor="@color/marrom1"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/Familia"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Familia:"
+            android:textColor="@color/marrom1"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/NomeCientifico"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nome Cientifico:"
+            android:textColor="@color/marrom1"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/Locais"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Locais:"
+            android:textColor="@color/marrom1"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/Presa"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Presa:"
+            android:textColor="@color/marrom1"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="299dp"
+            android:layout_height="165dp"
+            android:layout_marginStart="56dp"
+            android:layout_marginEnd="56dp"
+            android:layout_marginBottom="2dp"
+            app:srcCompat="@drawable/divisao" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
